@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Boppy.com</title>
+        <style>
+        /*This webpage uses the same CSS that the The code webpage (for Jo math) uses, modifed a tiny bit. You can find The code webpage (for Jo math) at https://www.khanacademy.org/computer-programming/the-code-webpage-for-jo-math/5099021277069312 .*/
+        body {
+            background: red;
+        }
+        
+        a:link{
+            color: rgb(0,255, 255);
+            text-decoration: none;
+            background:black;
+        }
+        a:visited{
+            color: rgb(0, 255, 255);
+            background-color: black;
+        }
+        a:hover, a:active, a:focus{ 
+            background-color: rgb(0, 0, 0);
+            border: 2px solid rgb(0, 255, 255);
+            padding-left:2px;
+            padding-right:2px;
+        }
+            
+        #table-of-contents {
+            color: rgb(255, 0, 0);
+            background-color: rgb(0, 0, 0);
+            height: 90vh;
+            overflow:auto;
+            padding:10px;
+            border: 2px dashed gray;
+        }
+        
+        #table-of-contents a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 0, 0);
+            padding-left: .25em;
+            padding-right: .25em;
+        }
+        
+        #table-of-contents ol a:before{
+            content: "[link]";
+            color: rgb(0, 255, 255);
+            background-color: rgb(0, 0, 0);
+            font-family: sans-serif;
+            font-size: .75em;
+            padding: .12em;
+        }
+        
+        #table-of-contents ol a:after{
+            content: "[link]";
+            color: rgb(150, 255, 150);
+            background-color: rgb(0, 0, 0);
+            font-family: sans-serif;
+            font-size: .75em;
+            padding: 5px;
+            background-color: red;
+        }
+        
+        a:link.tableofcontents-link, a:visited.tableofcontents-link {
+            background-color: transparent !important;
+            color: rgb(255, 0, 0) !important;
+        }
+        
+        .special-text{
+            font-variant:small-caps;
+        }
+        
+        .p1{
+            color: rgb(255, 0, 0);
+            background-color: rgb(0, 0, 0);
+            padding-left: .25em;
+            border: 2px dashed gray;
+        }
+        
+        .p1x{
+            color: rgb(255, 0, 0);
+            background-color: rgb(0, 0, 0);
+            padding-left: .25em;
+        }
+        
+        .links {
+            color: red;
+            background-color: rgb(0, 0, 0);
+            border: 2px dashed gray;
+        }
+        .links a{
+            text-decoration: none;
+            color: rgb(0, 255, 255);
+            background-color: rgb(255, 0, 0);
+            padding-left: .25em;
+            padding-right: .25em;
+            border: 1px dashed black;
+        }
+        
+        #f-links {
+            background-color:rgb(0, 0, 0);
+            border: 2px dashed yellow;
+            padding-left:5px;
+            padding-bottom:2px;
+            color:red;
+        }
+        
+        #f-links a:hover, a:active, a:focus{
+            text-decoration:underline;
+            border:none;
+        }
+        .m-f-link{
+            background-color:rgb(255, 0, 0);
+        }
+        .m-f-link:hover, .m-f-link:active, .m-f-link:focus{
+            background-color:rgb(0, 255, 255);
+        }
+        #f-link, .m-f-link{
+            color:gray;
+            text-decoration:none;
+        }
+        #f-link:visited, .m-f-link:visited{
+            color: gray;
+        }
+        #f-link:hover, #f-link:active, #f-link:focus{
+            border: 2px solid rgb(0, 255, 255);
+            padding-left:2px;
+            padding-right:2px;
+        }
+            }
+        </style>
+    </head>
+    <body>
+    <!--HTML5-marked as valid-if you make changes, please run it thurgh the W3C vailidtion service (http://validator.w3.org/#validate_by_input)-->
+    <h1>Boppy.com</h1>
+    <h3>Welcome to Boppy.com! Hosted by New WebX on KhanAcademy (although we asked WebX to not put a link to our page on their site), Boppy.com is problably, hopefully, going to become, eventually, the biggest webpage the DRA has ever made, and the broadest-ranging website ever made by the DRA. To get to sections quicker, use the table of contents below.</h3>
+    <!--Goals:
+        - Please add more ideas here!-->
+    <div id="table-of-contents">
+    <h3 id="top">jump to sections:</h3>
+    <h5>under <em>Links to relevant sites:</em></h5>
+    <ol>
+    <li><a href="#jo-math-links"><em><span class="special-text"> Jo math</span> links</em></a></li>
+    <li><a href="#dragon-math-links"><em><span class="special-text"> Dragon math</span> links</em></a></li>
+    <li><a href="#baby-math-links"><em><span class="special-text"> Baby math</span> links</em></a></li>
+    <li><a href="#picture-math-links"><em><span class="special-text"> Picture math</span> links</em></a></li>
+    <li><a href="#boppy-links"><em><span class="special-text"> Boppy</span> links</em></a></li>
+    </ol>
+    <h5>under <em>Overviews:</em></h5>
+    <ol>
+        <li><a href="#jo-math-overview"><em><span class="special-text"> Jo math</span> overview</em></a></li>
+        <li><a href="#dragon-math-overview"><em><span class="special-text"> Dragon math</span> overview</em></a></li>
+        <li><a href="#baby-math-overview"><em><span class="special-text">Baby math</span> overview</em></a></li>
+        <li><a href="#picture-math-overview"><em><span class="special-text">Picture math</span> overview</em></a></li>
+        <li><a href="#boppy-overview"><em><span class="special-text">Boppy</span> overview</em></a></li>
+    </ol>
+    <h5>under <em>Books:</em></h5>
+    <ol>
+        <li><a href = "#thinkstorms"><em><span class = "special-text">The Thinkstorms</span></em></a></li>
+        <li><a href = "#dream"><em><span class = "special-text">The Dream</span></em></a></li>
+    </ol>
+    <h5>under <em>Book overviews:</em></h5>
+    <ol>
+        <li><a href = "#thinkstorms-overview"><em>Overview of <span class = "special-text">The Thinkstorms</span></em></a></li>
+        <li><a href = "#dream-overview"><em></em></a></li>
+    </ol>
+    </div>
+    
+    <!--other stuff, accessible through the table of contents-->
+    
+    <h3>Links to relevant sites:</h3>
+    <h4 id="jo-math-links">Links to things relevant to <em class="special-text">Jo math</em>:</h4>
+    <ul>
+	   <li><a href="https://www.khanacademy.org/computer-programming/jo-math-spot-academy/6414937536331776">Jo math homepage</a></li>
+	        <li><a href="https://docs.google.com/document/d/1tWFV-lqrzzqOXNxwDxGCKi6fgt0WsJfygLn7HVl6tGA/edit">The history and origin of Jo math</a></li>
+	        <li><a href="https://docs.google.com/document/d/12S6ZkH6Ap8W_LQiAE2tMMYsE8cWVvZpSR1nN2Qn3Yzo/edit">Untitled document of Jo math.pg</a></li>
+	        <li><a href="https://www.khanacademy.org/computer-programming/the-code-webpage-for-jo-math/5099021277069312">The code webpage (for Jo math)</a></li>
+    </ul>
+    <h4 id="dragon-math-links">Links to things relevant to <em class="special-text">Dragon math</em>:</h4>
+    <ul>
+        <li><a href="https://docs.google.com/document/d/1ZLR2SfuQETigNtStJphkE4ExkaDIwPQGOSaWPAu77LY/edit#heading=h.y4ei3m4x4e3l">The history and origin of Dragon math</a></li>
+        <!--What else?-->
+    </ul>
+    <h4 id="baby-math-links">Links to things relevant to <em class="special-text">Baby math</em>:</h4>
+    <ul>
+        <li>We don't have any links for Baby math yet! We will get them as soon as we can.</li>
+        <!--Ideas: 
+        - baby math ULT calculator code link, go to codeskulptor.com and type it in to have the calculator in a pop-up window (technically there is a different version of baby maththat claims to be the original baby math, so we technically use baby math ULT)
+        - Baby math history and origin (surprisingly, that doesn't exist yet!-->
+    </ul>
+    <h4 id="picture-math-links">Links to things relevant to <em class="special-text">Picture math</em>:</h4>
+    <ul>
+        <li><a href="https://docs.google.com/document/d/1ZRq9JbmoOM-hzRV0mePth-W_zYvJgYGWv6LkxS_hyUQ/edit#">The history and origin of Picture math</a></li>
+        <!--What else?-->
+    </ul>
+    <h4 id="boppy-links">Links to things relevant to <em class="special-text">Boppy</em>:</h4>
+    <ul>
+        <li><a href="https://docs.google.com/document/d/1sng9M6Vfh5XBHpFMUe-PZjbg8qN7DN-W3tgONOP2g2E/edit">Dohboppy.com starters</a> (these were meant to be used on dohboppy.com, but that never really got started, so I started Boppy.com)</li>
+        <li><a href="https://docs.google.com/document/d/1OxBT1_B2PrgWDHqR6iMHI8RQqNtOf6_N-m1hXFV5-Y8/edit#">Boppy: the origin, the meaning, odd usages inside the Boppy club, and the usage outside of the Boppy club</a></li>
+    </ul>
+    <h3>Overviews</h3>
+    <p class="p1" id="jo-math-overview"><span class="special-text">Overview of: Jo math</span><br>
+    Jo math, by far the oldest of all the maths (except for Real math, or RM in Jo Math abbreviations), made its first appearence in a document when I (Moses) was 4 or 5. It started out with a few simple variables (A = 3, X = 7, and C = 6), and evolved. Today there are many different variables, and very many different fields of study. Perhaps one of the most interesting things about Jo math is that today there is a field of study actually called "Jo math Boppy"!
+    <br><span class="special-text">See more on Jo math on <a href="https://docs.google.com/document/d/1tWFV-lqrzzqOXNxwDxGCKi6fgt0WsJfygLn7HVl6tGA/edit">The history and origin of Jo math</a></span></p>
+    <p class="p1" id="dragon-math-overview"><span class="special-text">Overview of: Dragon math</span><br>
+    Dragon math, which is the closest to Real math of all the maths invented by me (Moses), is really Real math, just where certain things that were decided by the real math community where I did not agree were changed (for example, it was agreed by the real math community that 0 factorial equals 1, but I did not agree with that, so I changed it to 0 factorial equals 0, because it just seems weird that it is 1.
+    <br><span class="special-text">See more on Dragon math on <a href="https://docs.google.com/document/d/1ZLR2SfuQETigNtStJphkE4ExkaDIwPQGOSaWPAu77LY/edit#heading=h.y4ei3m4x4e3l">The history and origin of Dragon math</a></span></p>
+    <p class="p1" id="baby-math-overview"><span class="special-text">Overview of: Baby math</span><br>
+    Baby math, is, actually, as close as algoritims can get to the math that babies do without getting to complex (2 + 5 = 25). Since I (Moses) started it when I was six, (I think), I still remembered some of the silly things that I used to say when I was a baby, at least remembering them better than I do now. I stored all that in baby math, and now, baby math is quite  an important math in studing base changes.
+    <br><span class="special-text">See more on Baby math on <a href="#top">I'm linking you to the top because there are no links for baby math yet</a></span></p>
+    <p class="p1" id="picture-math-overview"><span class="special-text">Overview of: Picture math</span><br>
+    Picture math, problaby the most fun math (besides Real Math), was actually not invented by me (Moses). Instead, it was invented by Sean Johnson. Picture math involves drawing pictures (fun!), for certain things turning that drawing into something you can make with a piece of string (fun!) and studing the configurations of drawings.
+    <br><span class="special-text">See more on Picture math on <a href="https://docs.google.com/document/d/1ZRq9JbmoOM-hzRV0mePth-W_zYvJgYGWv6LkxS_hyUQ/edit#">The history and origin of Picture math</a></span></p>
+    <p class="p1" id="boppy-overview"><span class="special-text">Overview of: Boppy</span><br>
+    Boppy is a concept my brother once said. Sometimes, back when he first said boppy, I could say a real word, and then he would say that word back to me with his pronuciation, and then I found out what we meant. But with boppy, both brown and broccoli in hilge's pronuciation sounded like boppy. So I made it a consept, which could mean anything. At that time, it then represented an emotion that you didn’t want to say, like “I’m feeling boppy.” If you were using boppy to exchange for any emotion and you still wanted to make it kinda visible how you were feeling, then you would add a tone that matches with the emotion. That meaning is still used some of the time today, but the more commonly used meaning today is where you use boppy to show what you or someone else is doing, like “I must be doing something boppy”.
+    <br><span class="special-text">See more on Boppy on <a href="https://docs.google.com/document/d/1OxBT1_B2PrgWDHqR6iMHI8RQqNtOf6_N-m1hXFV5-Y8/edit#">Boppy: the origin, the meaning, odd usages inside the Boppy club, and the usage outside of the Boppy club</a></span></p>
+    <hr>
+    <h3>Books</h3>
+    <ul>
+        <li><span id = "thinkstorms"><a href = "https://docs.google.com/document/d/1nw1Eio-iPTXceSYnTFdEqHqol9mioO_WzRjakDR4a3Q/edit">The Thinkstorms</a> (this was my first book)</span></li>
+        <li><span id = "dream"><a href = "https://docs.google.com/document/d/1nG4eio5qF1R6XjUHv1MOc3doUdLN0Im7M6D5N0aRW4c/edit#">The Dream</a> (this was my second book)</span></li>
+        <li>That's all the books for now! A new book will come out on the first day of December 2016. If that book passes verification for being a good book and if I have enough space in my word count goal to put in all my ideas, it will become the start of a seires.</li>
+    </ul>
+    <hr>
+    <h3>Book Overviews</h3>
+    <ul>
+        <li>Overview of <span class = "special-text">The Thinkstorms:</span>
+            <p class="p1" id="thinkstorms-overview"></p></li>
+            <li>Overview of <span class = "special-text">The Dream:</span>
+            <p class="p1" id="dream-overview"></p></li>
+    </ul>
+    <hr>
+	   
+	   <p id="f-links"><a href="https://docs.google.com/document/d/1tWFV-lqrzzqOXNxwDxGCKi6fgt0WsJfygLn7HVl6tGA/edit#">The history and origin of Jo math</a> | <a href="https://docs.google.com/document/d/1ZLR2SfuQETigNtStJphkE4ExkaDIwPQGOSaWPAu77LY/edit">the history and origin of Dragon math</a> | <a href="https://docs.google.com/document/d/1nG4eio5qF1R6XjUHv1MOc3doUdLN0Im7M6D5N0aRW4c/edit#">The Dream (This book, by Andrew Brewster, has some stuff about boppy on chaper nine)</a> | <a href="#top">Back to top</a> | <!--do not change this link!--><a href="http://validator.w3.org/#validate_by_input" id="f-link"><em>validate any new HTML5</em></a></p>
+    </body>
+</html>
